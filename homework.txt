@@ -1,0 +1,25 @@
+Riams-MacBook-Pro:~ riamalali$ cd desktop
+Riams-MacBook-Pro:desktop riamalali$ ls -a
+.		.DS_Store	HYF homework
+..		.localized	Riam's
+Riams-MacBook-Pro:desktop riamalali$ touch .homework.txt
+Riams-MacBook-Pro:desktop riamalali$ ls -a
+.		.DS_Store	.localized	Riam's
+..		.homework.txt	HYF homework
+Riams-MacBook-Pro:desktop riamalali$ mkdir -p these/folders/are/just/for/fun
+Riams-MacBook-Pro:desktop riamalali$ echo "test" > fun
+Riams-MacBook-Pro:desktop riamalali$ echo "another test" >> fun
+Riams-MacBook-Pro:desktop riamalali$ wc -c fun
+      18 fun
+Riams-MacBook-Pro:desktop riamalali$ echo -n "test" > fun
+Riams-MacBook-Pro:desktop riamalali$ echo "another test" >> fun
+Riams-MacBook-Pro:desktop riamalali$ cat fun
+testanother test
+Riams-MacBook-Pro:desktop riamalali$ ls -a
+.		.homework.txt	Riam's
+..		.localized	fun
+.DS_Store	HYF homework	these
+Riams-MacBook-Pro:desktop riamalali$ mv .homework.txt > homework.txt
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Riams-MacBook-Pro:desktop riamalali$ 
